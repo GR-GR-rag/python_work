@@ -1,3 +1,14 @@
+# 注意sort list.sort()
+
+
+# 关于多维度排序
+dic=[{'name':'me','age':10},{'name':'you','age':20},{'name':'love','age':10}]
+dic.sort(key=lambda x:(x['age'],len(x['name'])))
+print(dic)
+
+
+
+
 # 关于注释
     # 单行
 print( '''iudhqwdhiuhq
